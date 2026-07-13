@@ -1,0 +1,46 @@
+{
+  "vulnerabilities": [
+    {
+      "file": "vulnerable_sql.py",
+      "line": 10,
+      "type": "SQL Injection",
+      "expected": true,
+      "description": "Concatenation de chaines dans une requete SQL"
+    },
+    {
+      "file": "vulnerable_secrets.py",
+      "line": 3,
+      "type": "Hardcoded Secret",
+      "expected": true,
+      "description": "Cle API en dur (API_KEY)"
+    },
+    {
+      "file": "vulnerable_secrets.py",
+      "line": 4,
+      "type": "Hardcoded Secret",
+      "expected": true,
+      "description": "Mot de passe en dur (DB_PASSWORD)"
+    },
+    {
+      "file": "vulnerable_deps.py",
+      "line": 7,
+      "type": "Outdated Dependency",
+      "expected": true,
+      "description": "Utilisation d'une version obsolete de requests"
+    },
+    {
+      "file": "corpus_public/pygoat_secret_key.py",
+      "line": 12,
+      "type": "Hardcoded Secret",
+      "expected": true,
+      "description": "SECRET_KEY Django code en dur (extrait reel d'OWASP PyGoat)"
+    },
+    {
+      "file": "corpus_public/pygoat_sql_injection.py",
+      "line": 12,
+      "type": "SQL Injection",
+      "expected": true,
+      "description": "Injection SQL par concatenation de chaines (extrait reel d'OWASP PyGoat)"
+    }
+  ]
+}

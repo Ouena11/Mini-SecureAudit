@@ -1,0 +1,4 @@
+bandit
+mistralai
+python-dotenv
+json-repair

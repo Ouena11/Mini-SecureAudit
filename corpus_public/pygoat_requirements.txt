@@ -1,0 +1,8 @@
+Django==4.2
+requests==2.28.2
+cryptography==39.0.1
+Pillow==9.4.0
+PyYAML==5.1
+Werkzeug==2.1.2
+urllib3==1.26.9
+PyJWT==2.4.0
