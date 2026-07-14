@@ -1,5 +1,6 @@
-streamlit
 bandit
 mistralai
 python-dotenv
 json-repair
+streamlit
+pandas
