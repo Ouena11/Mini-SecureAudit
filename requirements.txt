@@ -1,3 +1,4 @@
+streamlit
 bandit
 mistralai
 python-dotenv
